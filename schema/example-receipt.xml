@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE receipt SYSTEM
+"receipt.dtd">
+<receipt xmlns="http://www.warrantify.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.warrantify.com receipt.xsd">
+	<id>123456789</id>
+	<date>2002-05-30T09:30:10Z</date>
+	<price>
+	  <net-amount>97.95</net-amount>
+	  <gross-amount>117.00</gross-amount>
+	  <currency>EUR</currency>
+	  <tax>
+             <amount>19.05</amount>
+          </tax>
+	</price>
+	<items>
+	  <item>
+	    <title>Deep fryer</title>
+	    <quantity>
+	       <amount>1</amount>
+	    </quantity>
+	    <price>
+	      <net-amount>68.39</net-amount>
+              <gross-amount>84.80</gross-amount>
+              <currency>EUR</currency>
+	      <tax>
+		 <rate>24</rate>
+		 <amount>16.41</amount>
+              </tax>
+	    </price>
+	  </item>
+	  <item>
+	    <title>Cooking oil</title>
+	    <quantity>
+	       <amount>2.5</amount>
+	       <unit>
+		 <name>litre</name>
+		 <symbol>l</symbol>
+	       </unit>
+	    </quantity>
+	    <price>
+	      <net-amount>4.56</net-amount>
+              <gross-amount>5.20</gross-amount>
+              <currency>EUR</currency>
+	      <tax>
+		 <rate>14</rate>
+		 <amount>0.64</amount>
+              </tax>
+	    </price>
+	  </item>
+	  <item>
+	    <title>Cooking book</title>
+	    <quantity>
+	       <amount>1</amount>
+	    </quantity>
+	    <price>
+	      <net-amount>25</net-amount>
+              <gross-amount>27</gross-amount>
+              <currency>EUR</currency>
+	      <tax>
+		 <rate>8</rate>
+		 <amount>2</amount>
+              </tax>
+	    </price>
+	  </item>
+	</items>
+</receipt>

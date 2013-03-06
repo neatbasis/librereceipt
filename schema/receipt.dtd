@@ -1,0 +1,24 @@
+<!ELEMENT receipt (id?, date, price, items)>
+<!ATTLIST receipt xmlns CDATA #REQUIRED>
+<!ELEMENT items (item)*>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT item (title, quantity?, price?, product?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT quantity (amount, unit?)>
+<!ELEMENT price (net-amount, gross-amount?, currency, tax?)>
+<!ELEMENT tax (rate?,amount)> 
+<!ELEMENT amount (#PCDATA)>
+<!ELEMENT unit (name, symbol)>
+<!ELEMENT currency (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT net-amount (#PCDATA)>
+<!ELEMENT gross-amount (#PCDATA)>
+<!ELEMENT rate (#PCDATA)>
+<!ELEMENT symbol (#PCDATA)>
+<!ELEMENT product (name?, model?, sku?, gtin?, serials?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT sku (#PCDATA)>
+<!ELEMENT gtin (#PCDATA)>
+<!ELEMENT serials (serial+)>
+<!ELEMENT serial (#PCDATA)>
